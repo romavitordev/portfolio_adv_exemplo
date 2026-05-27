@@ -566,6 +566,117 @@
       color: rgba(24, 21, 18, .85);
     }
 
+    /* ── Light mode text fixes ── */
+
+    /* Float cards: "atuação regular", "LGPD", "sigilo e privacidade" */
+    body[data-theme="light"] .float-card span {
+      color: rgba(24, 21, 18, .72) !important;
+    }
+    body[data-theme="light"] .float-card strong {
+      color: var(--orange) !important;
+    }
+
+    /* Hero elements */
+    body[data-theme="light"] .hero-oab {
+      color: var(--orange);
+      border-color: rgba(176, 93, 16, .35);
+    }
+    body[data-theme="light"] .hero-sub,
+    body[data-theme="light"] .availability-note {
+      color: rgba(24, 21, 18, .72);
+    }
+    body[data-theme="light"] .hero-badge {
+      color: rgba(24, 21, 18, .72);
+      background: rgba(24, 21, 18, .05);
+      border-color: rgba(176, 93, 16, .22);
+    }
+
+    /* Stat blocks in "sobre" section */
+    body[data-theme="light"] .stat-block {
+      background: rgba(24, 21, 18, .05);
+      border-color: rgba(176, 93, 16, .22);
+    }
+    body[data-theme="light"] .stat-num {
+      color: var(--orange);
+    }
+    body[data-theme="light"] .stat-label {
+      color: rgba(24, 21, 18, .72);
+    }
+
+    /* Section labels and titles */
+    body[data-theme="light"] .section-label {
+      color: var(--orange);
+    }
+    body[data-theme="light"] .section-title {
+      color: rgba(24, 21, 18, .95);
+    }
+    body[data-theme="light"] .muted {
+      color: rgba(24, 21, 18, .72);
+    }
+
+    /* Footer */
+    body[data-theme="light"] .footer-brand {
+      color: rgba(24, 21, 18, .92);
+    }
+    body[data-theme="light"] .footer-link {
+      color: rgba(24, 21, 18, .65);
+    }
+    body[data-theme="light"] .footer-bottom {
+      color: rgba(24, 21, 18, .48);
+      border-top-color: rgba(176, 93, 16, .18);
+    }
+    body[data-theme="light"] .footer-social a {
+      color: rgba(24, 21, 18, .65);
+      border-color: rgba(176, 93, 16, .22);
+    }
+
+    /* Location & contact info items */
+    body[data-theme="light"] .loc-item h6,
+    body[data-theme="light"] .contact-info-item h6 {
+      color: rgba(24, 21, 18, .92);
+    }
+    body[data-theme="light"] .loc-item p,
+    body[data-theme="light"] .contact-info-item p,
+    body[data-theme="light"] .contact-info-item a {
+      color: rgba(24, 21, 18, .70);
+    }
+
+    /* FAQ items */
+    body[data-theme="light"] .faq-item h3 {
+      color: rgba(24, 21, 18, .92);
+    }
+    body[data-theme="light"] .faq-item p {
+      color: rgba(24, 21, 18, .70);
+    }
+    body[data-theme="light"] .faq-item {
+      border-color: rgba(176, 93, 16, .18);
+    }
+
+    /* Legal/privacy notices inside form */
+    body[data-theme="light"] .legal-notice,
+    body[data-theme="light"] .privacy-note {
+      color: rgba(24, 21, 18, .68);
+      background: rgba(24, 21, 18, .04);
+      border-color: rgba(176, 93, 16, .22);
+    }
+
+    /* Process steps */
+    body[data-theme="light"] .step-num {
+      color: var(--orange);
+      opacity: .35;
+    }
+    body[data-theme="light"] .step-item {
+      border-color: rgba(176, 93, 16, .18);
+    }
+
+    /* Content tag badges */
+    body[data-theme="light"] .content-tag {
+      color: var(--orange);
+      background: rgba(224, 122, 31, .10);
+    }
+
+    /* CTA band stays dark by design — no override needed */
+
     body[data-theme="light"] .btn-outline-adv:hover {
       border-color: var(--orange);
       color: #fff;
