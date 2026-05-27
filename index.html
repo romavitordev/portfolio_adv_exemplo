@@ -95,6 +95,31 @@
       --shadow: 0 18px 42px rgba(74, 48, 23, .12);
     }
 
+    /* Estilos do Modo Claro para a Navbar */
+    body[data-theme="light"] #mainNav {
+      background: rgba(255, 250, 243, .96);
+    }
+    body[data-theme="light"] #mainNav.scrolled {
+      background: rgba(255, 250, 243, .98);
+      border-bottom: 1px solid var(--border);
+    }
+    body[data-theme="light"] .navbar-collapse {
+      background: rgba(255, 250, 243, .98);
+    }
+    body[data-theme="light"] .nav-link {
+      color: rgba(24, 21, 18, .75) !important;
+    }
+    body[data-theme="light"] .nav-link:hover, 
+    body[data-theme="light"] .nav-link.active {
+      color: var(--white) !important;
+    }
+    body[data-theme="light"] .navbar-brand {
+      color: var(--white) !important;
+    }
+    body[data-theme="light"] .navbar-toggler {
+      border-color: rgba(176, 93, 16, .24);
+    }
+
     *, *::before, *::after { box-sizing: border-box; }
     html { scroll-behavior: smooth; scroll-padding-top: 92px; }
     
